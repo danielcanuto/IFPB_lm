@@ -1,0 +1,44 @@
+/* define as fontes */
+/* tananho da fonte */
+/* cor da fonte */
+/* geral */
+html {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: darkslategrey;
+}
+
+/* para as tags h1, h2 e a */
+/* define a car da fonte */
+/* mantem a cor ate para os links ja visitados */
+h1, h2, a , a:visited{
+    color: darkblue;
+}
+    /* tamanho e alinhamento da tag h1 */
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+/* tamanho e alinhamento da tag h2 */
+h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+}
+
+
+
+/* retira dos link o anderline */
+a:link {
+    text-decoration: none;
+}
+
+/* mostra um underline quando o cursor estiver no link */
+a:hover {
+    text-decoration: underline;
+}
+/* mantem a cor para  */
+
+/* classe que alinha a conteudo do texto */
+.cop {
+    text-align: center;
+}
